@@ -1,0 +1,67 @@
+*{margin:0;
+    padding:0;
+    }
+    
+.navbar{
+    width:100%;
+    height:100px;
+    background-color: rgba(2, 3, 3, 0.192);
+    position: relative;
+    z-index: 5;
+}
+.navig {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+ 
+}
+ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+.navva{
+    display:flex;
+    flex-direction: row;
+    width:70%;
+    height:80px;
+    font-size: 25px;
+    justify-content: space-between;
+    padding-top: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.logo{
+    padding-left:0px;
+    font-size:30px;
+   font-weight: 600;
+    padding-top: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.imaginn{
+    height:100px;
+  
+}
+.logo:hover{
+ transition: 3s;
+    color:black
+}
+.navva li:hover{
+    transition: 0.5s;
+    opacity: 0.5;
+}
+.navva li{
+    transition: 0.5s;
+}
+/* pana aici a fost navigarea */
+
+.pentruimg{
+   width:100%;
+   height:1000px;
+    background-image: url(imo.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+
+}
